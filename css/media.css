@@ -1,0 +1,5 @@
+@media screen and (max-width:992px) {
+    .navbar .navbar-nav>li .active::after {
+        width: 0;
+    }
+}
