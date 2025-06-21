@@ -1,3 +1,8 @@
+@media screen and (max-width:568px) {
+    header {
+    background-size: cover;
+}
+}
 @media screen and (max-width:992px) {
     .navbar .navbar-nav>li .active::after {
         width: 0;

@@ -34,7 +34,7 @@
 header {
     background-image: url(../images/drew-coffman-1872.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
@@ -167,7 +167,6 @@ header {
         opacity: 1;
     }
 }
-
 @keyframes bounce-top {
     0% {
         -webkit-transform: translateY(-45px);
@@ -227,13 +226,9 @@ header {
         opacity: 1;
     }
 }
-
 .about-img img {
     width: 90%;
 }
-
-
-
 .about-icon {
     width: 3rem;
     height: 3rem;
